@@ -10,7 +10,7 @@
 #include <Arduino.h>
 #include "Tauno_capacitive_touch.h"
 
-Tauno_capacitive_touch::Tauno_Capacitive(
+Tauno_capacitive_touch::Tauno_capacitive_touch(
   uint8_t SEND_PIN,
   uint8_t RECEIVE_PIN)
   : new_SEND_PIN(SEND_PIN),
@@ -18,7 +18,7 @@ Tauno_capacitive_touch::Tauno_Capacitive(
     trigger_level(0)
 {}
 
-Tauno_capacitive_touch::~Tauno_Capacitive() {
+Tauno_capacitive_touch::~Tauno_capacitive_touch() {
  // Cleanup
 }
 

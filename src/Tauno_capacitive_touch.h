@@ -26,9 +26,9 @@ class Tauno_capacitive_touch {
     uint16_t trigger_level;
 
   public:
-    Tauno_Capacitive( uint8_t SEND_PIN, uint8_t RECEIVE_PIN);
+    Tauno_capacitive_touch( uint8_t SEND_PIN, uint8_t RECEIVE_PIN);
 
-    ~Tauno_Capacitive();
+    ~Tauno_capacitive_touch();
 
     void begin();  // Initializes pins.
 
