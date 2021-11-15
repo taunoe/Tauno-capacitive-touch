@@ -18,8 +18,8 @@ const int RECEIVE_PIN_1 = 1; // Rasperry Pi Pico GP1
 Tauno_capacitive_touch Sensor_1(SEND_PIN_1, RECEIVE_PIN_1);
 
 // Second button
-const int SEND_PIN_2 = 2;    // Rasperry Pi Pico GP0
-const int RECEIVE_PIN_2 = 3; // Rasperry Pi Pico GP1
+const int SEND_PIN_2 = 2;    // Rasperry Pi Pico GP2
+const int RECEIVE_PIN_2 = 3; // Rasperry Pi Pico GP3
 Tauno_capacitive_touch Sensor_2(SEND_PIN_2, RECEIVE_PIN_2);
 
 void setup() {
