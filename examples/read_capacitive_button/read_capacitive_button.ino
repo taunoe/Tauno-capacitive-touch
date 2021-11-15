@@ -1,15 +1,14 @@
-# Arduino Capacitive Touch Library
-
-Basic Arduino Capacitive Touch library.
-
-## Circuit
-
-![Basic circuit](doc/circuit-1.png)
-
-## Example code
-
-```c++
+#include <Arduino.h>
 #include <Tauno_capacitive_touch.h>
+/*
+ * Example of reading a capacitive touch button.
+ * Uses a high value resistor e.g. 50K - 50M between send pin and receive pin.
+ * Started: 14.11.2021
+ * Edited: 15.11.2021
+ * Copyright 2021 Tauno Erik
+ * https://taunoerik.art/
+ *
+ */
 
 const uint32_t BAUD_RATE = 115200;
 
@@ -25,6 +24,7 @@ void setup() {
 }
 
 void loop() {
+
   // Read raw value
   uint32_t value1 = Sensor.read_raw();
   Serial.print(" Sensor.read_raw():");
@@ -42,16 +42,3 @@ void loop() {
 
   delay(50);
 }
-```
-
-## Demo
-
-## Tested
-
-|Borad|Tested|
-|:-|:-|
-|Rasperry Pi Pico|Works|
-
-__
-
-Copyright Tauno Erik 2021 [taunoerik.art](https://taunoerik.art/)

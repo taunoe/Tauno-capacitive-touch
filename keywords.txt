@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For Tauno_capacitive_touch
+#######################################
+# Class
+#######################################
+
+Tauno_capacitive_touch	KEYWORD1
+
+#######################################
+# Methods and Functions
+#######################################	
+
+begin			KEYWORD2
+read_raw		KEYWORD2
+read			KEYWORD2
+read_bool			KEYWORD2
+calibrate_treigger_level			KEYWORD2
+
+#######################################
+# Constants
+#######################################
+
+#EXAMPLE		LITERAL1
