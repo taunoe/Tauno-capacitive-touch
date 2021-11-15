@@ -4,6 +4,8 @@ Basic Arduino Capacitive Touch library.
 
 This is useful if, for example, you want to use apples as input buttons. Or metal foil or something else that conducts electricity.
 
+Send pin can be the same when using multiple touch buttons.
+
 ## Circuit
 
 ![Basic circuit](doc/circuit-1.png)

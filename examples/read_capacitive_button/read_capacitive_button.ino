@@ -15,6 +15,10 @@ const uint32_t BAUD_RATE = 115200;
 const int SEND_PIN = 0;    // Rasperry Pi Pico GP0
 const int RECEIVE_PIN = 1; // Rasperry Pi Pico GP1
 
+//On Arduino Uno
+//const int SEND_PIN = 4;
+//const int RECEIVE_PIN = 2;
+
 Tauno_capacitive_touch Sensor(SEND_PIN, RECEIVE_PIN);
 
 void setup() {

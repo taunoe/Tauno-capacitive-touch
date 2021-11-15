@@ -16,7 +16,7 @@
   #define GET_CURRENT_TIME time_us_32()
 //#elif defined(__AVR__)
 #else
-  #define GET_CURRENT_TIME millis()
+  #define GET_CURRENT_TIME micros()
 #endif
 
 class Tauno_capacitive_touch {
