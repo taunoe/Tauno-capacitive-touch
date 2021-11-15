@@ -1,5 +1,3 @@
-#include <Arduino.h>
-#include <Tauno_capacitive_touch.h>
 /*
  * Example of reading a capacitive touch button.
  * Uses a high value resistor e.g. 50K - 50M between send pin and receive pin.
@@ -9,6 +7,8 @@
  * https://taunoerik.art/
  *
  */
+
+#include <Tauno_capacitive_touch.h>
 
 const uint32_t BAUD_RATE = 115200;
 
